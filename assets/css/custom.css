@@ -1,0 +1,104 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.home{
+    padding-bottom: 3%;
+    background: transparent;
+}
+.title{
+    background: #090b13;
+    padding-top: 5%;
+}
+.home p{
+    margin-left: 0;
+}
+.heading{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 65px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.description {
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.image img{
+    margin-left: 35%;
+}
+.form-control{
+    width: 335px;
+    border-radius: 0;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2%;
+}
+.btn-primary{
+    margin-left: -.5%;
+    border-radius: 0;
+    background: #042cbc;
+    border: #042cbc;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+/* Features */
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+
+/* sect1 */
+
+.location {
+    outline: 2px solid black;
+    outline-offset: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+/* sect2 */
+
+.record {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    outline: 2px solid black;
+    outline-offset: 1rem;
+}
+/* sect3 */
+
+.setting {
+   
+    outline: 2px solid black;
+    outline-offset: 1rem;
+}
+.stealth {
+   
+    outline: 2px solid black;
+    outline-offset: 1rem;
+}
+@media screen and (max-width:600px){
+
+    /* Feautures */
+        
+        .location,
+        .record, .setting, .stealth {
+            outline: none;
+        }
+        
+    }
+
+    .footer{
+        background: #ffffff;
+        padding-top: 3%;
+        padding-bottom: 1%;
+    }
+    
