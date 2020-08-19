@@ -1,10 +1,5 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,22 +11,35 @@
    <link rel="stylesheet" href="./assets/css/custom.css">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+    
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/6ebc2d8f5f.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">  
 </head>
 <body>
     
     <section class="home">
         <div class="title">
+          <div class="background-animations">
+            <span><img src="./assets/images/blue-ellipse.png"></span>
+            <span><img src="./assets/images/pink-ellipse.png"></span>
+            <span><img src="./assets/images/union1.png"></span>
+            <span><img src="./assets/images/union2.png"></span>
+            <span><img src="./assets/images/sub1.png"></span>
+            <span><img src="./assets/images/sub2.png"></span>
+          </div>
           <div class="container">
           <div class="row align-items-center">
             <div class="col-md-7">
-              <div class="form">
+              <form action="subscribe.php" method="post">
                 <h3 class="heading">Know Attendace</h3>
                 <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, suscipit necessitatibus pariatur ullam dignissimos, a asperiores aliquid non mollitia facere architecto labore nesciunt porro, nisi corrupti sed. Adipisci, asperiores provident.</p>
                 <div class="form-group row">
-                  <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email address">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email address" required>
                   <button type="submit" class="btn btn-primary">Get Notified</button>
                 </div>
-              </div>
+              </form>
             </div>
             <div class="col-md-5">
               <div class="image">
@@ -43,6 +51,8 @@
         </div>
         <img src="./assets/images/wave.svg" alt="" class="img-fluid wave">
       </section>
+
+      <i class="far fa-moon" onclick="myFunction()">Switch Theme</i>
 
       <section class="features my-5">
         <div class="container">
@@ -57,7 +67,7 @@
                             rhoncus eget. Non placerat sit pharetra non sed turpis dolor. Augue magna semper risus habitasse ut. Integer integer pharetra </p>
                     </div>
                     <div class="col-md-3">
-                        <img src="./assets/images/search.png" alt="Geo location image" class="img-fluid">
+                        <img src="./assets/images/success.png" alt="Geo location image" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -67,7 +77,7 @@
             <div class="record">
                 <div class="row my-5">
                     <div class="col-md-3">
-                        <img src="./assets/images/search.png" alt="Geo location image" class="img-fluid">
+                        <img src="./assets/images/dashboard.png" alt="Geo location image" class="img-fluid">
                     </div>
                     <div class="col-md-6">
                         <h3>Keep Track</h3>
@@ -89,7 +99,7 @@
                             rhoncus eget. Non placerat sit pharetra non sed turpis dolor. Augue magna semper risus habitasse ut. Integer integer pharetra </p>
                     </div>
                     <div class="col-md-3">
-                        <img src="./assets/images/search.png" alt="Geo location image" class="img-fluid">
+                        <img src="./assets/images/settings.png" alt="Geo location image" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -110,18 +120,69 @@
                 </div>
             </div>
             <!-- Fourth section-->
-
-
         </div>
-  </section>
+      </section>
 
+      <section class="screenshot">
+        <div class="container">
+          <h2 class="screenshot-heading text-center">Screenshot
+          </h2>
+          <!--Swipe Slide-->
+          <div class="swiper-container swiper-container-1 mt-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="screenshot-card px-3 py-2 mx-3">
+                  <div class="screenshot-card-inner">
+                  <img src="./assets/images/onboarding.png" alt="" class="img-fluid w-100">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="screenshot-card px-3 py-2 mx-3">
+                  <div class="screenshot-card-inner">
+                  <img src="./assets/images/signup.png" alt="" class="img-fluid w-100">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="screenshot-card px-3 py-2 mx-3">
+                  <div class="screenshot-card-inner">
+                  <img src="./assets/images/dashboard.png" alt="" class="img-fluid w-100">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="screenshot-card px-3 py-2 mx-3">
+                  <div class="screenshot-card-inner">
+                  <img src="./assets/images/search.png" alt="" class="img-fluid w-100">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="screenshot-card px-3 py-2 mx-3">
+                  <div class="screenshot-card-inner">
+                  <img src="./assets/images/success.png" alt="" class="img-fluid w-100">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="screenshot-card px-3 py-2 mx-3">
+                  <div class="screenshot-card-inner">
+                  <img src="./assets/images/settings.png" alt="" class="img-fluid w-100">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
   <footer class="footer">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 d-flex">
-                <p class="copyright text-center">© 2020 Copyright: <a href="#"> Sonixlocale</a> All rights reserved</p>
-            </div>
-        </div>
+          <div class="footer-copyright text-center">© 2020 Copyright:
+            <a href="#"> Sonixlocale</a> All rights reserved
+          </div>
     </div>
 </footer>
 
@@ -129,5 +190,47 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+   //
+   var swiper = new Swiper('.swiper-container-1', {
+      slidesPerView: 1,
+      autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+      },
+      breakpoints: {
+      992: {
+        slidesPerView: 3
+      },
+      },
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+       var swiper = new Swiper('.swiper-container-2', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+      },
+    });
+</script>
+
+<script>
+  function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+  }
+</script>
+
 </body>
 </html>
