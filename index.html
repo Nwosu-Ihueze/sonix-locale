@@ -11,16 +11,15 @@
    <link rel="stylesheet" href="./assets/css/custom.css">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
-    
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/6ebc2d8f5f.js" crossorigin="anonymous"></script>
-    
+    <!-- Swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">  
 </head>
 <body>
-    
+    <!-- Home -->
     <section class="home">
+      <!-- Background -->
         <div class="title">
+          <!-- Animations start -->
           <div class="background-animations">
             <span><img src="./assets/images/blue-ellipse.png"></span>
             <span><img src="./assets/images/pink-ellipse.png"></span>
@@ -29,9 +28,13 @@
             <span><img src="./assets/images/sub1.png"></span>
             <span><img src="./assets/images/sub2.png"></span>
           </div>
+          <!-- Animation ends -->
           <div class="container">
+            <!-- Row starts -->
           <div class="row align-items-center">
+            <!-- Form row -->
             <div class="col-md-7">
+              <!-- Form -->
               <form action="subscribe.php" method="post">
                 <h3 class="heading">Know Attendace</h3>
                 <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, suscipit necessitatibus pariatur ullam dignissimos, a asperiores aliquid non mollitia facere architecto labore nesciunt porro, nisi corrupti sed. Adipisci, asperiores provident.</p>
@@ -40,35 +43,57 @@
                   <button type="submit" class="btn btn-primary">Get Notified</button>
                 </div>
               </form>
+              <!--/ Form -->
             </div>
+            <!-- Image row -->
             <div class="col-md-5">
+              <!-- Image -->
               <div class="image">
-                <img src="./assets/images/search.png" alt="" class="img-fluid">
+                <img src="./assets/images/search.png" alt="" class="img-fluid" id="listening">
               </div>
+              <!--/ Image-->
             </div>
+            <!--/ Image row ends -->
           </div>
         </div> 
         </div>
+        <!--/ Background ends -->
+
+         <!-- SVG -->
         <img src="./assets/images/wave.svg" alt="" class="img-fluid wave">
+         <!--/ SVG -->
+
       </section>
-
+      <!--/ Home -->
+      
+      <!-- Theme switch toggle-->
       <i class="far fa-moon" onclick="myFunction()">Switch Theme</i>
+      <!--/ Theme switch toggle -->
 
+      <!-- Features -->
       <section class="features my-5">
         <div class="container">
+          <!-- Heading -->
             <h2 class="text-center mb-4">Features</h2>
+            <!--/ Heading -->
+
             <!-- First section -->
             <div class="location">
                 <div class="row my-5">
+                  <!-- Decsription -->
                     <div class="col-md-6">
                         <h3>Geo Location</h3>
                         <h4>Know the number of people in your vicinity</h4>
                         <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor in velit in tempor lorem. In ornare quam a proin mauris quis varius et. A sed pellentesque commodo placerat nibh amet aenean ac tellus. Tincidunt augue quam leo magna
                             rhoncus eget. Non placerat sit pharetra non sed turpis dolor. Augue magna semper risus habitasse ut. Integer integer pharetra </p>
                     </div>
+                    <!--/ Description -->
+
+                    <!-- Image -->
                     <div class="col-md-3">
                         <img src="./assets/images/success.png" alt="Geo location image" class="img-fluid">
                     </div>
+                    <!--/ Image -->
                 </div>
             </div>
             <!-- First section-->
@@ -76,15 +101,20 @@
             <!-- Second section -->
             <div class="record">
                 <div class="row my-5">
+                  <!-- Image -->
                     <div class="col-md-3">
                         <img src="./assets/images/dashboard.png" alt="Geo location image" class="img-fluid">
                     </div>
+                    <!--/ Image -->
+
+                    <!-- Description -->
                     <div class="col-md-6">
                         <h3>Keep Track</h3>
                         <h4>Record of listenings at your fingertips</h4>
                         <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor in velit in tempor lorem. In ornare quam a proin mauris quis varius et. A sed pellentesque commodo placerat nibh amet aenean ac tellus. Tincidunt augue quam leo magna
                             rhoncus eget. Non placerat sit pharetra non sed turpis dolor. Augue magna semper risus habitasse ut. Integer integer pharetra </p>
                     </div>
+                    <!--/ Description -->
                 </div>
             </div>
             <!-- Second section-->
@@ -92,15 +122,20 @@
              <!-- Third section -->
              <div class="setting">
                 <div class="row my-5">
+                  <!-- Description -->
                     <div class="col-md-6">
                         <h3>Language</h3>
                         <h4>Change narrator language, accent or gender</h4>
                         <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor in velit in tempor lorem. In ornare quam a proin mauris quis varius et. A sed pellentesque commodo placerat nibh amet aenean ac tellus. Tincidunt augue quam leo magna
                             rhoncus eget. Non placerat sit pharetra non sed turpis dolor. Augue magna semper risus habitasse ut. Integer integer pharetra </p>
                     </div>
+                    <!--/ Description -->
+
+                    <!-- Image -->
                     <div class="col-md-3">
                         <img src="./assets/images/settings.png" alt="Geo location image" class="img-fluid">
                     </div>
+                    <!--/ Image -->
                 </div>
             </div>
             <!-- Third section-->
@@ -108,28 +143,39 @@
              <!-- Fourth section -->
              <div class="stealth">
                 <div class="row my-5">
+                  <!-- Image -->
                     <div class="col-md-3">
                         <img src="./assets/images/search.png" alt="Geo location image" class="img-fluid">
                     </div>
+                    <!--/ Image -->
+
+                    <!-- Description -->
                     <div class="col-md-6">
                         <h3>Stealth</h3>
                         <h4>Listen and record silently</h4>
                         <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor in velit in tempor lorem. In ornare quam a proin mauris quis varius et. A sed pellentesque commodo placerat nibh amet aenean ac tellus. Tincidunt augue quam leo magna
                             rhoncus eget. Non placerat sit pharetra non sed turpis dolor. Augue magna semper risus habitasse ut. Integer integer pharetra </p>
                     </div>
+                    <!--/ Description -->
                 </div>
             </div>
             <!-- Fourth section-->
         </div>
       </section>
+      <!-- Features end-->
 
+      <!-- Screenshot -->
       <section class="screenshot">
         <div class="container">
+          <!-- Heading -->
           <h2 class="screenshot-heading text-center">Screenshot
           </h2>
+          <!--/ Heading -->
+
           <!--Swipe Slide-->
           <div class="swiper-container swiper-container-1 mt-5">
             <div class="swiper-wrapper">
+              <!-- Slide 1 -->
               <div class="swiper-slide">
                 <div class="screenshot-card px-3 py-2 mx-3">
                   <div class="screenshot-card-inner">
@@ -137,6 +183,9 @@
                   </div>
                 </div>
               </div>
+              <!-- Slide 1 ends -->
+
+              <!-- Slide 2 -->
               <div class="swiper-slide">
                 <div class="screenshot-card px-3 py-2 mx-3">
                   <div class="screenshot-card-inner">
@@ -144,6 +193,9 @@
                   </div>
                 </div>
               </div>
+              <!-- Slide 2 ends -->
+
+              <!-- Slide 3 -->
               <div class="swiper-slide">
                 <div class="screenshot-card px-3 py-2 mx-3">
                   <div class="screenshot-card-inner">
@@ -151,6 +203,9 @@
                   </div>
                 </div>
               </div>
+              <!-- Slide 3 ends -->
+
+              <!-- Slide 4-->
               <div class="swiper-slide">
                 <div class="screenshot-card px-3 py-2 mx-3">
                   <div class="screenshot-card-inner">
@@ -158,6 +213,9 @@
                   </div>
                 </div>
               </div>
+              <!-- Slide 4 ends -->
+
+              <!-- Slide 5 -->
               <div class="swiper-slide">
                 <div class="screenshot-card px-3 py-2 mx-3">
                   <div class="screenshot-card-inner">
@@ -165,6 +223,9 @@
                   </div>
                 </div>
               </div>
+              <!-- slide 5 ends -->
+
+              <!-- Slide 6 -->
               <div class="swiper-slide">
                 <div class="screenshot-card px-3 py-2 mx-3">
                   <div class="screenshot-card-inner">
@@ -172,12 +233,16 @@
                   </div>
                 </div>
               </div>
+              <!-- Slide 6 ends -->
             </div>
           </div>
+          <!-- Swipe slide ends -->
         </div>
       </section>
+      <!--/ Screenshot-->
 
       
+  <!-- Footer -->
   <footer class="footer">
     <div class="container-fluid">
           <div class="footer-copyright text-center">© 2020 Copyright:
@@ -185,13 +250,14 @@
           </div>
     </div>
 </footer>
+<!--/ Footer -->
 
       <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-
+<!-- Swiper -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
    //
@@ -225,12 +291,25 @@
     });
 </script>
 
+<!-- Theme switcher -->
 <script>
   function myFunction() {
       var element = document.body;
       element.classList.toggle("dark-mode");
   }
 </script>
+
+<!-- Narrator -->
+<script>
+  $("#listening").click(function speak(){
+     var msg = new SpeechSynthesisUtterance();
+         msg.text = "You have approximately 179 people within your vicinity";
+         window.speechSynthesis.speak(msg);    
+  });
+ </script> 
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/6ebc2d8f5f.js" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

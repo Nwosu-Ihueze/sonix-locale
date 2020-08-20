@@ -199,6 +199,13 @@ h2 {
 }
 
 @media screen and (max-width:342px){
+    .form-control{
+        width: 325px;
+        margin-bottom: 2%;
+    }
+    .features h3{
+        padding-top: 3%;
+    }
     .btn-primary{
         margin-left: 35%;
     }
@@ -227,3 +234,5 @@ h2 {
         margin-left: 15%;
     }
     }
+   
+    
