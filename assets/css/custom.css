@@ -1,43 +1,49 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-
-    
 }
-.home{
+
+.home {
     padding-bottom: 3%;
     background: transparent;
 }
-.title{
+
+.title {
     background: #090b13;
     padding-top: 5%;
 }
-.home p{
+
+.home p {
     margin-left: 0;
 }
-.heading{
+
+.heading {
     font-size: 50px;
     font-weight: 900;
     line-height: 65px;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
+
 .description {
     font-size: 18px;
     line-height: 27px;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
-.image img{
+
+.image img {
     margin-left: 35%;
 }
-.form-control{
+
+.form-control {
     width: 335px;
     border-radius: 0;
     font-family: 'Poppins', sans-serif;
     margin-left: 2%;
 }
-.btn-primary{
+
+.btn-primary {
     margin-left: -.5%;
     border-radius: 0;
     background: #042cbc;
@@ -46,70 +52,79 @@ body{
     line-height: 21px;
     font-family: 'Poppins', sans-serif;
 }
+
 .background-animations span {
     position: absolute;
     animation-name: move;
     animation-duration: 6s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-  }
-  .background-animations span:nth-child(1) {
+}
+
+.background-animations span:nth-child(1) {
     top: 19%;
     left: 46%;
     animation-duration: 10.1s;
     animation-delay: -4.3s;
     transform-origin: 17vw 16vh;
-  }
-  .background-animations span:nth-child(2) {
+}
+
+.background-animations span:nth-child(2) {
     top: 5%;
     left: 29%;
     animation-duration: 11.7s;
     animation-delay: -9.9s;
     transform-origin: -20vw -1vh;
-  }
-  .background-animations span:nth-child(3) {
+}
+
+.background-animations span:nth-child(3) {
     top: 30%;
     left: 34%;
     animation-duration: 13.7s;
     animation-delay: -11.9s;
     transform-origin: -16vw 13vh;
-  }
-  .background-animations span:nth-child(4) {
+}
+
+.background-animations span:nth-child(4) {
     top: 2%;
     left: 17%;
     animation-duration: 14.1s;
     animation-delay: -5.2s;
     transform-origin: 24vw 16vh;
-  }
-  .background-animations span:nth-child(5) {
+}
+
+.background-animations span:nth-child(5) {
     top: 42%;
     left: 34%;
     animation-duration: 14.4s;
     animation-delay: -3.8s;
     transform-origin: 5vw -2vh;
-  }
-  .background-animations span:nth-child(6) {
+}
+
+.background-animations span:nth-child(6) {
     top: 67%;
     left: 30%;
     animation-duration: 13.1s;
     animation-delay: -12.2s;
     transform-origin: 7vw 5vh;
-  }
-  @keyframes move {
-    100% {
-      transform: translate3d(0, 0, 1px) rotate(360deg);
-    }
-  }
-  
-.dark-mode {
-  color: #ffffff;
-  --swiper-theme-color: #fff;
-  background: #05060afd;
 }
 
-i{
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.dark-mode {
+    color: #ffffff;
+    --swiper-theme-color: #fff;
+    background: #05060afd;
+}
+
+i {
     padding-left: 2%;
 }
+
 
 /* Features */
 
@@ -139,129 +154,142 @@ h2 {
     outline: 2px solid black;
     outline-offset: 1rem;
 }
+
+
 /* sect3 */
 
 .setting {
-   
     outline: 2px solid black;
     outline-offset: 1rem;
 }
+
 .stealth {
-   
     outline: 2px solid black;
     outline-offset: 1rem;
 }
-@media screen and (max-width:600px){
 
+@media screen and (max-width:600px) {
     /* Feautures */
-        
-        .location,
-        .record, .setting, .stealth {
-            outline: none;
-        }
-        
+    .location,
+    .record,
+    .setting,
+    .stealth {
+        outline: none;
     }
-    .screenshot-card {
-      transform: scale(0.9);
-      position: relative;
-    }
-    .screenshot-card-inner {
-      position: relative;
-    }
-    /*SWIPER SLIDER*/
-    .swiper-slide-next .screenshot-card {
-      transform: scale(1);
-    }
+}
 
-.footer{
-  background: #090b13;
-  padding-top: 3%;
-  padding-bottom: 1%;
+.screenshot-card {
+    transform: scale(0.9);
+    position: relative;
 }
-.footer-copyright, a{
-  color: #ffffff;
-}
-    
 
-@media screen and (max-width:767px){
-.image img{
-    margin-left: 30%;
+.screenshot-card-inner {
+    position: relative;
 }
-.features img{
-    margin-left: 30%;
+
+
+/*SWIPER SLIDER*/
+
+.swiper-slide-next .screenshot-card {
+    transform: scale(1);
 }
-.features h3, h4, .py-5{
-    text-align: center !important;
+
+.footer {
+    background: #090b13;
+    padding-top: 3%;
+    padding-bottom: 1%;
 }
-.features h3{
-    padding-top: 1%;
+
+.footer-copyright,
+a {
+    color: #ffffff;
 }
+
+@media screen and (max-width:767px) {
+    .image img {
+        margin-left: 30%;
+    }
+    .features img {
+        margin-left: 30%;
+    }
+    .features h3,
+    h4,
+    .py-5 {
+        text-align: center !important;
+    }
+    .features h3 {
+        padding-top: 1%;
+    }
 }
-@media screen and (max-width:447px){
-    .form-control{
-       margin-left: 13%;
+
+@media screen and (max-width:447px) {
+    .form-control {
+        margin-left: 13%;
         margin-bottom: 2%;
     }
-   
-    .btn-primary{
+    .btn-primary {
         margin-left: 40%;
         margin-bottom: 3%;
     }
-    .image img{
+    .image img {
         margin-left: 25%;
     }
-    }
+}
 
-@media screen and (max-width:342px){
-    .form-control{
+@media screen and (max-width:342px) {
+    .form-control {
         width: 325px;
         margin-bottom: 2%;
     }
-    .features h3{
+    .features h3 {
         padding-top: 3%;
     }
-    .btn-primary{
+    .btn-primary {
         margin-left: 35%;
     }
     .background-animations span:nth-child(1) {
         left: 6%;
-      }
-      .background-animations span:nth-child(2) {
+    }
+    .background-animations span:nth-child(2) {
         left: 9%;
-      }
-      .background-animations span:nth-child(3) {
+    }
+    .background-animations span:nth-child(3) {
         left: 4%;
-      }
-      .background-animations span:nth-child(4) {
+    }
+    .background-animations span:nth-child(4) {
         left: 7%;
-      }
-      .background-animations span:nth-child(5) {
+    }
+    .background-animations span:nth-child(5) {
         left: 3%;
-      }
-      .background-animations span:nth-child(6) {
+    }
+    .background-animations span:nth-child(6) {
         left: 5%;
-      }
-      .image img{
+    }
+    .image img {
         margin-left: 15%;
     }
-    .features img{
+    .features img {
         margin-left: 15%;
     }
-    }
+}
 
-   @media screen and (max-width:320px){
-    .form-control{
+@media screen and (max-width:320px) {
+    .heading {
+        text-align: center;
+    }
+    .description {
+        text-align: center;
+    }
+    .form-control {
         width: 285px;
-       margin-left: 5%;
+        margin-left: 5%;
         margin-bottom: 2%;
     }
-   
-    .btn-primary{
+    .btn-primary {
         margin-left: 35%;
         margin-bottom: 3%;
     }
-    .image img{
+    .image img {
         margin-left: 13%;
     }
-    }
-    
+}
